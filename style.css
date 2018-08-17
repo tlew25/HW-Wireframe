@@ -1,0 +1,76 @@
+/*Beginning of CSS Sheet "style.css */
+body {
+    background: #777;
+    color: #777;
+    font-size: 18px;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.nav {
+    margin-bottom: 10px;
+}
+#page {
+    width: 960px;
+    margin: 0 auto;
+    
+
+}
+header{
+    height: 50px;
+}
+/* all <p> tags will be text-centered in divs and header/footer tags */
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* These elements should be the same size and color paired under one css {} */
+header,
+.section,.nav,.aside,
+    footer{
+    /* margin: 10px; */
+    background:  #ebebeb;  
+}
+/* theses are relatively the same size// #aside & #section did not work because they are different sizes */
+.nav,
+footer,
+header {
+    height: 50px;
+}
+/* this allows the div to be lined straight with corresponded div which is #section */
+.aside,
+ .section {
+    display: inline-block;
+}
+/* the article div is inside of the section div container with <p> elements inside */
+.section {
+    float: left;
+    width: 47.5%;
+    height: 300px;
+    margin: 0 2.5% 0 0;
+}
+
+.aside {
+    width: 47.5%;
+    height: 300px;
+    margin: 0 0 0 2.5%;
+    
+}
+
+.article {
+    color: #ebebeb;
+    height:180px;
+    width: 90%;
+    background-color: #777;
+    margin: 0 auto;
+}
+#h1sec,
+#psec {
+    color: #777;
+    background-color: #ebebeb;
+    margin-left: 30px;
+    width: 80%;
+    height: 35px;   
+}
+
